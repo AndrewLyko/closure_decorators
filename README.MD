@@ -57,3 +57,16 @@
 ## How to create:
 1. Create function using closure
 2. Add annotation with ad and name of decorator above decorated function
+
+
+## Rules:
+- you can use multiple decorators to decorate one function
+- order of decoration is from the nearest decorated function to the furthest
+- you cen pass parameters to decorator using double closure in decoration
+- order of parameters in double closure:
+    - parameters decorator
+    - decorated function
+    - parameters of decorated function
+
+# Dictionary
+-iPython - interactive python
